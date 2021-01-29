@@ -90,4 +90,5 @@ class TicTacToe
     if win = won?
       @board[win[0]]
     end
+  end
 end
