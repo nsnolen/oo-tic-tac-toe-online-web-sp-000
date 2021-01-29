@@ -75,6 +75,6 @@ class TicTacToe
   end
 
   def full?
-    !won? && !valid_move?
+    @board.all?{|square| square != " "}
   end
 end
