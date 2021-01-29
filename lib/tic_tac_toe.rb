@@ -68,7 +68,7 @@ class TicTacToe
     WIN_COMBINATIONS.any? do |win|
     if position_taken?(win[0]) == position_taken?(win[1]) && position_taken?(win[1]) == position_taken?(win[2])
     return win
-  else 
+  else
     false
   end
   end
