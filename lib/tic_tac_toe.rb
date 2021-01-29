@@ -42,3 +42,4 @@ class TicTacToe
   def turn_count
   @board.count{|filled| filled != " "}
 end
+end
