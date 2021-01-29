@@ -73,4 +73,7 @@ class TicTacToe
     end
   end
   end
+
+  def full?
+    !won? && !valid_move?
 end
