@@ -65,10 +65,10 @@ class TicTacToe
   end
 
   def won?
-    if WIN_COMBINATIONS
-      true
-    else
-      false
+    WIN_COMBINATIONS.any?{|win| 
+    position_taken?(0) == position_taken(1) && position_taken(1) == position_taken(2)}
+    win
+      
     end
   end
 end
