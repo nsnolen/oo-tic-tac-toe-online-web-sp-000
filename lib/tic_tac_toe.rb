@@ -53,5 +53,8 @@ class TicTacToe
 
   def turn
     gets.strip
+    input_to_index
+    valid_move?
+    current_player
   end
 end
