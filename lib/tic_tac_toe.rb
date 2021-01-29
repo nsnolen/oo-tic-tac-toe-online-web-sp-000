@@ -52,7 +52,7 @@ class TicTacToe
   end
 
   def turn
-    gets.strip
+    user_input = gets.strip
     input_to_index(user_input)
     valid_move?(index)
     current_player
