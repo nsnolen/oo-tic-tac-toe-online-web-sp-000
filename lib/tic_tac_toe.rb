@@ -41,5 +41,9 @@ class TicTacToe
 
   def turn_count
   @board.count{|filled| filled != " "}
-end
+  end
+
+  def current_player
+    turn_count.even == "X"
+  end
 end
