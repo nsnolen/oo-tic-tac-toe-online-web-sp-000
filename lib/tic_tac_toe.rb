@@ -23,7 +23,7 @@ class TicTacToe
   end
 
   def input_to_index
-    gets.chomp - 1
+    user_input.to_i - 1
   end
 
 
