@@ -50,4 +50,8 @@ class TicTacToe
       "O"
     end
   end
+
+  def turn 
+    gets.strip
+  end
 end
